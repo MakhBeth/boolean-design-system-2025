@@ -1,0 +1,33 @@
+/* 1. Usiamo un box-sizing model che include il padding e il border nella dimensione del box */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* 2. Rimuoviamo il margine predefinito dei nostri elementi */
+* {
+	margin: 0;
+}
+
+/* 3. Miglioriamo la leggibilità del nostro carattere */
+body {
+	line-height: 1.25;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Cambiamo il display di deafault dei media in block */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/* I controlli dei form erediterranno lo stile dei loro genitori */
+:where(input, button, textarea, select) {
+	font: inherit;
+	color: inherit;
+}
