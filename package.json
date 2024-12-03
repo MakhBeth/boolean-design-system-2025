@@ -1,0 +1,25 @@
+{
+	"name": "boolean-design-system-2025",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/MakhBeth/boolean-design-system-2025",
+	"author": "Davide Di Pumpo <davidemak@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@chromatic-com/storybook": "^3.2.2",
+		"@storybook/addon-essentials": "^8.4.6",
+		"@storybook/addon-interactions": "^8.4.6",
+		"@storybook/addon-onboarding": "^8.4.6",
+		"@storybook/blocks": "^8.4.6",
+		"@storybook/react": "^8.4.6",
+		"@storybook/react-vite": "^8.4.6",
+		"@storybook/test": "^8.4.6",
+		"prop-types": "^15.8.1",
+		"storybook": "^8.4.6",
+		"vite": "^6.0.2"
+	},
+	"scripts": {
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	}
+}
