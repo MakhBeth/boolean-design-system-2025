@@ -64,3 +64,7 @@ Creiamo nella root di progetto un file `tsconfig.json` con il seguente contenuto
 - [Fluid dimension calculator](https://fluid.style/spacing)
 - [Vertical Rhythm](https://24ways.org/2006/compose-to-a-vertical-rhythm/)
 - [Modular scale](https://www.modularscale.com/)
+- [Tab accessibility](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/)
+- [Tab accessibility guide](https://accessibilitymadeeasy.org/accessible-tabs-a-step-by-step-guide/)
+- [Accessibility Addon](https://www.npmjs.com/package/@storybook/addon-a11y)
+- 

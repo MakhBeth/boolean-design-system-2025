@@ -95,4 +95,13 @@
 	--color-neutral-bcg: var(--color-gray-0);
 	--color-neutral-text: var(--color-gray-9);
 	--color-neutral-accent: var(--color-gray-7);
+
+	/* Timing */
+	--timing: 1s;
+	--timing-fast: calc(var(--timing) * 0.15);
+	--timing-slow: calc(var(--timing) * 2);
+
+	@media (prefers-reduced-motion: reduce) {
+		--timing: 0s;
+	}
 }
