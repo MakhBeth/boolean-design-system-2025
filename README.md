@@ -60,3 +60,5 @@ Creiamo nella root di progetto un file `tsconfig.json` con il seguente contenuto
 
 ## Useful Links
 - [Accessibilitá delle unitá di misura](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/)
+- [Understanding liner scale](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
+- [Fluid dimension calculator](https://fluid.style/spacing)

@@ -1,9 +1,9 @@
 :root {
 	/* Spacing */
 	--spacing-zero: 0;
-	--spacing-xs: 4px;
-	--spacing-sm: 8px;
-	--spacing-md: 16px;
-	--spacing-lg: 24px;
-	--spacing-xl: 32px;
+	--spacing-xs: clamp(4px, 2px + 0.5vw, 8px);
+	--spacing-sm: clamp(8px, 4px + 1vw, 16px);
+	--spacing-md: clamp(16px, 12px + 1vw, 24px);
+	--spacing-lg: clamp(24px, 20px + 1vw, 32px);
+	--spacing-xl: clamp(32px, 24px + 2vw, 48px);
 }
