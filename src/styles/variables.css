@@ -6,4 +6,16 @@
 	--spacing-md: clamp(16px, 12px + 1vw, 24px);
 	--spacing-lg: clamp(24px, 20px + 1vw, 32px);
 	--spacing-xl: clamp(32px, 24px + 2vw, 48px);
+
+	/* Typography */
+	--font-size-hero: clamp(3.815rem, 3.573rem + 0.97vw, 4.3rem);
+	--font-size-h1: clamp(2.896rem, 2.436rem + 1.838vw, 3.815rem);
+	--font-size-h2: clamp(2.488rem, 2.206rem + 1.128vw, 3.052rem);
+	--font-size-h3: clamp(2.074rem, 1.89rem + 0.734vw, 2.441rem);
+	--font-size-h4: clamp(1.728rem, 1.616rem + 0.45vw, 1.953rem);
+	--font-size-h5: clamp(1.44rem, 1.378rem + 0.246vw, 1.563rem);
+	--font-size-h6: clamp(1.25rem, 1.225rem + 0.1vw, 1.3rem);
+	--font-size-body: 1rem;
+	--font-size-sm: 0.875rem;
+	--font-size-xs: 0.75rem;
 }

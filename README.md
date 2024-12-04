@@ -62,3 +62,5 @@ Creiamo nella root di progetto un file `tsconfig.json` con il seguente contenuto
 - [Accessibilitá delle unitá di misura](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/)
 - [Understanding liner scale](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
 - [Fluid dimension calculator](https://fluid.style/spacing)
+- [Vertical Rhythm](https://24ways.org/2006/compose-to-a-vertical-rhythm/)
+- [Modular scale](https://www.modularscale.com/)
