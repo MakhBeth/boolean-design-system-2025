@@ -58,6 +58,14 @@ Creiamo nella root di progetto un file `tsconfig.json` con il seguente contenuto
 }
 ```
 
+
+## Test
+```
+npm i -D vitest @testing-library/dom @testing-library/jest-dom @testing-library/react @testing-library/user-event @types/jest @vitejs/plugin-react-swc jsdom
+```
+
+```npm install -D @playwright/test && npx playwright install```
+
 ## Useful Links
 - [Accessibilitá delle unitá di misura](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/)
 - [Understanding liner scale](https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/)
