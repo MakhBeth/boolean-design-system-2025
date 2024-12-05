@@ -14,12 +14,12 @@ export const Badge: React.FC<BadgeProps> = ({
 	...attrs
 }) => {
 	return (
-		<root.div>
+		<root.span>
 			<GlobalStyles />
 			<style>{css}</style>
-			<div className={`badge ${variant}`} {...attrs}>
+			<span className={`badge ${variant}`} {...attrs}>
 				{children}
-			</div>
-		</root.div>
+			</span>
+		</root.span>
 	);
 };

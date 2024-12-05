@@ -84,17 +84,20 @@
 	--color-red-14: oklch(15% 0.06 var(--hue-red));
 	--color-red-15: oklch(10% 0.03 var(--hue-red));
 
-	--color-positive-bcg: var(--color-green-1);
-	--color-positive-text: var(--color-green-9);
-	--color-positive-accent: var(--color-green-6);
+	--color-positive-bcg: light-dark(var(--color-green-1), var(--color-green-12));
+	--color-positive-text: light-dark(var(--color-green-12), var(--color-green-3));
+	--color-positive-accent: light-dark(
+		var(--color-green-6),
+		var(--color-green-8)
+	);
 
-	--color-negative-bcg: var(--color-red-1);
-	--color-negative-text: var(--color-red-9);
-	--color-negative-accent: var(--color-red-6);
+	--color-negative-bcg: light-dark(var(--color-red-1), var(--color-red-12));
+	--color-negative-text: light-dark(var(--color-red-9), var(--color-red-3));
+	--color-negative-accent: light-dark(var(--color-red-6), var(--color-red-8));
 
-	--color-neutral-bcg: var(--color-gray-0);
-	--color-neutral-text: var(--color-gray-9);
-	--color-neutral-accent: var(--color-gray-7);
+	--color-neutral-bcg: light-dark(var(--color-gray-0), var(--color-gray-12));
+	--color-neutral-text: light-dark(var(--color-gray-12), var(--color-gray-1));
+	--color-neutral-accent: light-dark(var(--color-gray-7), var(--color-gray-5));
 
 	/* Timing */
 	--timing: 1s;

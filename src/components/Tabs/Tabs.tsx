@@ -39,7 +39,7 @@ export const Tabs: React.FC<TabsProps> & { Item: typeof Item } = ({
 	}
 
 	return (
-		<root.div role="tablist">
+		<root.div>
 			<GlobalStyles />
 			<style>{css}</style>
 			<TabsContext.Provider value={{ activeTab, setActiveTab }}>

@@ -16,12 +16,17 @@
 	transition: all var(--timing-fast) ease-in-out;
 
 	&:hover {
-		background-color: var(--color-gray-1);
+		background-color: light-dark(var(--color-gray-1), var(--color-gray-15));
 	}
 
 	&[aria-selected="true"] {
-		background-color: var(--color-gray-15);
-		color: var(--color-gray-0);
+		background-color: light-dark(var(--color-gray-15), var(--color-gray-1));
+		color: light-dark(var(--color-gray-0), var(--color-gray-15));
+	}
+
+	&:focus-visible {
+		outline: 2px solid light-dark(var(--color-gray-8), var(--color-gray-2));
+		outline-offset: 2px;
 	}
 }
 

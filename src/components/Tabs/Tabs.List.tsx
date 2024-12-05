@@ -37,7 +37,7 @@ export const List: React.FC<TablistProp> = ({ tabsLabels }) => {
 		event.preventDefault();
 	};
 	return (
-		<div className="tablist" onKeyDownCapture={handleKeyDown}>
+		<div role="tablist" className="tablist" onKeyDownCapture={handleKeyDown}>
 			{tabsLabels.map(({ label, tabId }) => (
 				<Button key={tabId} tabId={tabId}>
 					{label}

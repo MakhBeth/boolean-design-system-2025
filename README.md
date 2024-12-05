@@ -67,4 +67,3 @@ Creiamo nella root di progetto un file `tsconfig.json` con il seguente contenuto
 - [Tab accessibility](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/)
 - [Tab accessibility guide](https://accessibilitymadeeasy.org/accessible-tabs-a-step-by-step-guide/)
 - [Accessibility Addon](https://www.npmjs.com/package/@storybook/addon-a11y)
-- 
