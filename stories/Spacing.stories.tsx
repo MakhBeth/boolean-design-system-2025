@@ -17,7 +17,6 @@ const SpaceCalc = ({ value }: { value: string }) => {
 		const bodyStyle = window.getComputedStyle(document.body);
 		return bodyStyle.getPropertyValue(value);
 	}, [value]);
-	console.log({ spacing });
 	return <span>{spacing}</span>;
 };
 

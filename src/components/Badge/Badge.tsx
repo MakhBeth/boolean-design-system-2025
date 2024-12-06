@@ -6,7 +6,7 @@ import { GlobalStyles } from "../GlobalStyles";
 type BadgeProps = {
 	children: React.ReactNode;
 	variant?: "neutral" | "positive" | "negative";
-} & React.HTMLAttributes<HTMLDivElement>;
+} & React.HTMLAttributes<HTMLSpanElement>;
 
 export const Badge: React.FC<BadgeProps> = ({
 	children,
